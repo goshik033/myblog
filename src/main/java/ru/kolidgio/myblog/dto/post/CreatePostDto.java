@@ -1,4 +1,4 @@
-package ru.kolidgio.myblog.dto;
+package ru.kolidgio.myblog.dto.post;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
