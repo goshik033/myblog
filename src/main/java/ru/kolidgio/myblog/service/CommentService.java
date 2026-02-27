@@ -94,8 +94,6 @@ public class CommentService {
 
 
     }
-
-
     private static void requireId(Long id, String field) {
         if (id == null) throw new BadRequestException(field + " не должен быть null");
         if (id <= 0) throw new BadRequestException(field + " должен быть > 0");
